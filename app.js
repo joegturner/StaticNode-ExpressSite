@@ -13,19 +13,16 @@ app.use('/static', express.static('public'));
 
 
 /** Routes **/
-app.use(mainRoutes);
+app.use('/', mainRoutes);
 
-app.use((req, res, next) => {
-    console.log('Error handler');
+app.use(function(req, res, next) {
     const err = new Error('Page not Found');
     err.status = 404;
     next(err);
 });
 
 // error handler
-app.use((err, req, res, next) => {
-    console.log('ERROROR!');
-    console.log(err.message);
+app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     // res.locals.error = err;
     // res.status(err.status);
