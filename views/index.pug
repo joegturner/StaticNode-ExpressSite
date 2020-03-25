@@ -6,7 +6,6 @@ block content
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
       h1 Joe's Portfolio
-      img.thumbnail(src='images/1_cover_photo.jpg')
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
@@ -19,7 +18,7 @@ block content
       each project in projects
         .cell
           a(href= project.id)
-            img.thumbnail(src='https://placehold.it/550x550')
+            img.thumbnail(src= project.image_urls[0])
             h5 #{project.project_name}
 
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
