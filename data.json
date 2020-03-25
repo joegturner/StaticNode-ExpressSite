@@ -1,0 +1,87 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "Generates a random quote",
+            "technologies": [
+                "javascript",
+                "DOM manipulation"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "/images/image1.jpg",
+                "/images/image2.jpg"
+            ]
+        }, 
+        {
+            "id": 2,
+            "project_name": "List Pagination and Filtering",
+            "description": "A fictional list of students with pagination and search functionality",
+            "technologies": [
+                "javascript",
+                "DOM manipulation",
+                "event handlers"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "/images/image1.jpg",
+                "/images/image2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Interactive registration form for a fictional conference",
+            "technologies": [
+                "javascript",
+                "DOM manipulation",
+                "event handlers",
+                "form manipulation"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "/images/image1.jpg",
+                "/images/image2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Phase Guessing Game",
+            "description": "Word guessing game",
+            "technologies": [
+                "javascript",
+                "object-oriented programming",
+                "DOM manipulation",
+                "event handlers"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "/images/image1.jpg",
+                "/images/image2.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "Fictional employee list fetched from an API",
+            "technologies": [
+                "javascript",
+                "API fetch requests",
+                "Object-Oriented Programming",
+                "DOM manipulation",
+                "event handlers"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "/images/image1.jpg",
+                "/images/image2.jpg"
+            ]
+        }
+    ]
+}
