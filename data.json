@@ -3,21 +3,23 @@
         {
             "id": 1,
             "project_name": "Random Quote Generator",
-            "description": "Generates a random quote",
+            "description": "Generates a random quote every 20 seconds or when the button is clicked",
             "technologies": [
                 "javascript",
                 "DOM manipulation"
             ],
             "live_link": "https://joegturner.github.io/Random-Quote-Gen/",
             "github_link": "https://github.com/joegturner/Random-Quote-Gen",
+            "coverphoto_url": "/static/images/rand-quote_cover_photo.jpg",
             "image_urls": [
-                "/static/images/rand-quote_cover_photo.jpg",
-                "/images/image2.jpg"
+                "/static/images/rand-quote_image1.jpg",
+                "/static/images/rand-quote_image2.jpg",
+                "/static/images/rand-quote_image3.jpg"
             ]
         }, 
         {
             "id": 2,
-            "project_name": "List Pagination and Filtering",
+            "project_name": "Pagination and Filtering",
             "description": "A fictional list of students with pagination and search functionality",
             "technologies": [
                 "javascript",
@@ -26,9 +28,10 @@
             ],
             "live_link": "https://joegturner.github.io/List-Pagination/",
             "github_link": "https://github.com/joegturner/List-Pagination",
+            "coverphoto_url": "/static/images/pagination_cover_photo.jpg",
             "image_urls": [
-                "/static/images/pagination_cover_photo.jpg",
-                "/images/image2.jpg"
+                "/static/images/pagination_image1.jpg",
+                "/static/images/pagination_image2.jpg"
             ]
         },
         {
@@ -43,15 +46,17 @@
             ],
             "live_link": "https://joegturner.github.io/Interactive-Form/",
             "github_link": "https://github.com/joegturner/Interactive-Form",
+            "coverphoto_url": "/static/images/form_cover_photo.jpg",
             "image_urls": [
-                "/static/images/form_cover_photo.jpg",
-                "/images/image2.jpg"
+                "/static/images/form_image1.jpg",
+                "/static/images/form_image2.jpg",
+                "/static/images/form_image3.jpg"
             ]
         },
         {
             "id": 4,
             "project_name": "Phrase Guessing Game",
-            "description": "Word guessing game",
+            "description": "Guess the hidden phrase with a limited number of guesses",
             "technologies": [
                 "javascript",
                 "object-oriented programming",
@@ -60,15 +65,17 @@
             ],
             "live_link": "https://joegturner.github.io/Phrase-Guessing-Game/",
             "github_link": "https://github.com/joegturner/Phrase-Guessing-Game",
+            "coverphoto_url": "/static/images/phrase-hunter_cover_photo.jpg",
             "image_urls": [
-                "/static/images/phrase-hunter_cover_photo.jpg",
-                "/images/image2.jpg"
+                "/static/images/phrase-hunter_image1.jpg",
+                "/static/images/phrase-hunter_image2.jpg",
+                "/static/images/phrase-hunter_image3.jpg"
             ]
         },
         {
             "id": 5,
             "project_name": "Public API Requests",
-            "description": "Fictional employee list fetched from an API",
+            "description": "Fictional employee list fetched from an API with search functionality",
             "technologies": [
                 "javascript",
                 "API fetch requests",
@@ -78,15 +85,16 @@
             ],
             "live_link": "https://joegturner.github.io/Public-API-Requests/",
             "github_link": "https://github.com/joegturner/Public-API-Requests",
+            "coverphoto_url": "/static/images/api-list_cover_photo.jpg",
             "image_urls": [
-                "/static/images/api-list_cover_photo.jpg",
-                "/images/image2.jpg"
+                "/static/images/api-list_image1.jpg",
+                "/static/images/api-list_image2.jpg"
             ]
         },
         {
             "id": 6,
             "project_name": "Connect Four",
-            "description": "Use the arrow keys to line up 4 in a row",
+            "description": "Use the arrow keys to move and drop a piece. 2 players take turns and the player to line up 4 pieces in a row, wins!",
             "technologies": [
                 "javascript",
                 "Object-Oriented Programming",
@@ -95,9 +103,10 @@
             ],
             "live_link": "https://joegturner.github.io/Game-Connect-Four//",
             "github_link": "https://github.com/joegturner/Game-Connect-Four",
+            "coverphoto_url": "/static/images/connect-four_cover_photo.jpg",
             "image_urls": [
-                "/static/images/connect-four_cover_photo.jpg",
-                "/images/image2.jpg"
+                "/static/images/connect-four_image1.jpg",
+                "/static/images/connect-four_image2.jpg"
             ]
         }
     ]
