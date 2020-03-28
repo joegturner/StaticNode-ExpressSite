@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back to Home
+    h1 Sorry, something went wrong!
+    br
+    h2= `Error message: "${error.message}"`
+    h2= `Error status: "${error.status}"`
+    h2= `Error stack info: `
+    br
+    p= `${error.stack}`
