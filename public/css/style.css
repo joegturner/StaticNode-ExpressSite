@@ -2,7 +2,11 @@
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
-
+  
+  h1{
+    text-shadow: 2px 2px #7c7979;
+  }
+  
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
@@ -27,16 +31,25 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: rgb(15, 18, 61);
 }
 
 .button{
+  background-color: #151d3a;
+}
+
+.button:hover{
+  background-color: rgb(56, 122, 153);
+}
+
+/*.button{
   background-color: #333;
 }
 
 .button:hover{
   background-color: #111;
 }
+*/
 
 a{
   color: #333;
@@ -50,7 +63,7 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #7c7979;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -58,7 +71,10 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #151d3a;
+  /* background: #121313; 
+  background: #151d3a;
+  */
   color: #fff;
   box-shadow: none !important;
 }
@@ -71,7 +87,8 @@ a:hover{
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(121, 118, 118);
+    /* 555 */
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,13 +96,15 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(56, 122, 153);
+    border-bottom: 0.5px solid #eaeaea;
+    /* 999 */
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #151d3a;
 }
 
  .portfolio-breadcrumb a{
@@ -103,7 +122,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #151d3a;
   padding-bottom: 40px;
 }
 
