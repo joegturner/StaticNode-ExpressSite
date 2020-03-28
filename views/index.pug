@@ -9,7 +9,7 @@ block content
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        | Please allow me to show off my Javascript projects!
+        | Please feel free to browse my Javascript projects!
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
@@ -17,9 +17,9 @@ block content
       //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
       each project in projects
         .cell
-          a(href= project.id)
-            img.thumbnail(src= project.image_urls[0])
-            h5 #{project.project_name}
+          a(class='link' href= project.id)
+            img.thumbnail(src= project.coverphoto_url)
+            h6 #{project.project_name}
 
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
