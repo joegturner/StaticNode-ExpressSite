@@ -6,7 +6,7 @@
 - Joe Turner / jgturner
 
 ## Revision History
-- Rev 0, 3-24-2020: submission for peer review on Slack
+- Rev A, 3-28-2020: submission for peer review on Slack
 
 ## Instructions to open the app
 - download or clone the repo
