@@ -13,7 +13,7 @@ router.get('/about', (req, res) => {
 });
 
 // projects page route
-router.get('/:id', (req, res, next) => {
+router.get('/project/:id', (req, res, next) => {
     const projId = req.params.id;
     const project = projects.find( ({id}) => id === +projId);
     
