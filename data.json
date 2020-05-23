@@ -112,7 +112,7 @@
         {
             "id": 7,
             "project_name": "React Gallery",
-            "description": "Photo Gallery with React via flickr API",
+            "description": "Photo Gallery with React rendering the UI and photos fetched from Flickr's public API",
             "technologies": [
                 "javascript",
                 "React",
@@ -120,10 +120,50 @@
             ],
             "live_link": "https://joegturner.github.io/React-Gallery",
             "github_link": "https://github.com/joegturner/React-Gallery",
-            "coverphoto_url": "/static/images/connect-four_cover_photo.jpg",
+            "coverphoto_url": "/static/images/react-gallery_cover_photo.jpg",
             "image_urls": [
-                "/static/images/connect-four_image1.jpg",
-                "/static/images/connect-four_image2.jpg"
+                "/static/images/react-gallery_image1.jpg",
+                "/static/images/react-gallery_image2.jpg",
+                "/static/images/react-gallery_image3.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "project_name": "Sequelize Library",
+            "description": "Fictional Library books manager used to create, delete, and edit books with pagination and search functionality. Built with Express rendering Pug views and a relational database using the promise based ORM called sequelize.",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "Pug",
+                "Sequelize ORM"
+            ],
+            "live_link": "https://jgturner-sql-library-manager.herokuapp.com/books",
+            "github_link": "https://github.com/joegturner/SQL-Library-Manager",
+            "coverphoto_url": "/static/images/sql-library_cover_photo.jpg",
+            "image_urls": [
+                "/static/images/sql-library_image1.jpg",
+                "/static/images/sql-library_image2.jpg",
+                "/static/images/sql-library_image3.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "project_name": "Fullstack Courses App",
+            "description": "Fictional courses manager with React rendering the UI and Express as the restful API server which runs a relational database using the promised based ORM called sequelize.",
+            "technologies": [
+                "Node.js",
+                "React",
+                "Rest API",
+                "Express",
+                "Sequelize ORM"
+            ],
+            "live_link": "https://jgturner-fullstack-courses.herokuapp.com/",
+            "github_link": "https://github.com/joegturner/Fullstack-React-REST",
+            "coverphoto_url": "/static/images/courses-fullstack_cover_photo.jpg",
+            "image_urls": [
+                "/static/images/courses-fullstack_image1.jpg",
+                "/static/images/courses-fullstack_image2.jpg",
+                "/static/images/courses-fullstack_image3.jpg"
             ]
         }
     ]
