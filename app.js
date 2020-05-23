@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const helmet = require('helmet');
 
 const mainRoutes = require('./routes');
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
+app.use(helmet());
 
 /** Routing **/
 app.use('/', mainRoutes);
