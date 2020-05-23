@@ -108,6 +108,23 @@
                 "/static/images/connect-four_image1.jpg",
                 "/static/images/connect-four_image2.jpg"
             ]
+        },
+        {
+            "id": 7,
+            "project_name": "React Gallery",
+            "description": "Photo Gallery with React via flickr API",
+            "technologies": [
+                "javascript",
+                "React",
+                "Fetch flikr API"
+            ],
+            "live_link": "https://joegturner.github.io/React-Gallery",
+            "github_link": "https://github.com/joegturner/React-Gallery",
+            "coverphoto_url": "/static/images/connect-four_cover_photo.jpg",
+            "image_urls": [
+                "/static/images/connect-four_image1.jpg",
+                "/static/images/connect-four_image2.jpg"
+            ]
         }
     ]
 }

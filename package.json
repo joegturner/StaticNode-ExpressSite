@@ -1,6 +1,9 @@
 {
   "name": "staticnode-expresssite",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.8.0"
+  },
   "description": "Static Node.js and Express Site",
   "main": "app.js",
   "scripts": {
