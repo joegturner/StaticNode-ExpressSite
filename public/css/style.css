@@ -146,6 +146,10 @@ a:hover{
     .portfolio-index .cell h5{
       letter-spacing: 1px;
     }
+    .portfolio-index .cell:hover{
+      color: rgb(56, 122, 153);
+      border: 1px solid #151d3a;;
+    }
 
 .portfolio-meta{
   padding-left: 20px;
